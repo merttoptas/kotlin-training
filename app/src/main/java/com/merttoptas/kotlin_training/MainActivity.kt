@@ -2,7 +2,7 @@ package com.merttoptas.kotlin_training
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import com.merttoptas.kotlin_training.challange.FindIntersection
 import com.merttoptas.kotlin_training.collections.array.Arrays
 import com.merttoptas.kotlin_training.collections.list.Lists
 import com.merttoptas.kotlin_training.collections.maps.Maps
@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     var maps: Maps = Maps()
     var operations : Operations = Operations()
     var problems : Problems = Problems()
+    var findIntersection : FindIntersection = FindIntersection()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +25,6 @@ class MainActivity : AppCompatActivity() {
         maps.main()
         operations.main()
         problems.calculateY()
-        Log.d("deneme1", problems.calculateP().toString())
-       // problems.calculateY()
+       findIntersection.main()
     }
 }
