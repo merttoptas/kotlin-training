@@ -3,6 +3,7 @@ package com.merttoptas.kotlin_training
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.merttoptas.kotlin_training.challange.FindIntersection
+import com.merttoptas.kotlin_training.challange.QuestionsMarks
 import com.merttoptas.kotlin_training.collections.array.Arrays
 import com.merttoptas.kotlin_training.collections.list.Lists
 import com.merttoptas.kotlin_training.collections.maps.Maps
@@ -16,15 +17,18 @@ class MainActivity : AppCompatActivity() {
     var operations : Operations = Operations()
     var problems : Problems = Problems()
     var findIntersection : FindIntersection = FindIntersection()
-
+    val questionsMarks = QuestionsMarks()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        array.main()
+        /*
+          array.main()
         lists.main()
         maps.main()
         operations.main()
         problems.calculateY()
        findIntersection.main()
+         */
+        questionsMarks.main()
     }
 }
