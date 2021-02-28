@@ -3,6 +3,7 @@ package com.merttoptas.kotlin_training
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.merttoptas.kotlin_training.challange.FindIntersection
+import com.merttoptas.kotlin_training.challange.FirstFactorial
 import com.merttoptas.kotlin_training.challange.QuestionsMarks
 import com.merttoptas.kotlin_training.collections.array.Arrays
 import com.merttoptas.kotlin_training.collections.list.Lists
@@ -14,21 +15,27 @@ class MainActivity : AppCompatActivity() {
     var array: Arrays = Arrays()
     var lists: Lists = Lists()
     var maps: Maps = Maps()
-    var operations : Operations = Operations()
-    var problems : Problems = Problems()
-    var findIntersection : FindIntersection = FindIntersection()
+    var operations: Operations = Operations()
+    var problems: Problems = Problems()
+    var findIntersection: FindIntersection = FindIntersection()
     val questionsMarks = QuestionsMarks()
+    val firstFactorial = FirstFactorial()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         /*
-          array.main()
+        array.main()
         lists.main()
         maps.main()
         operations.main()
         problems.calculateY()
-       findIntersection.main()
-         */
+        findIntersection.main()
         questionsMarks.main()
+
+         */
+        firstFactorial.main()
+
+
     }
 }
