@@ -2,11 +2,7 @@ package com.merttoptas.kotlin_training
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.merttoptas.kotlin_training.challange.CompareTheTriples
-import com.merttoptas.kotlin_training.challange.FindIntersection
-import com.merttoptas.kotlin_training.challange.ParkingCalculate
-import com.merttoptas.kotlin_training.challange.FirstFactorial
-import com.merttoptas.kotlin_training.challange.QuestionsMarks
+import com.merttoptas.kotlin_training.challange.*
 import com.merttoptas.kotlin_training.collections.array.Arrays
 import com.merttoptas.kotlin_training.collections.list.Lists
 import com.merttoptas.kotlin_training.collections.maps.Maps
@@ -24,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     val firstFactorial = FirstFactorial()
     val parkingCalculate = ParkingCalculate()
     val compareTheTriples = CompareTheTriples()
+    val veryBigSum = VeryBigSum()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,5 +36,6 @@ class MainActivity : AppCompatActivity() {
         findIntersection.main()
         parkingCalculate.main()
         compareTheTriples.main()
+        veryBigSum.main()
     }
 }
