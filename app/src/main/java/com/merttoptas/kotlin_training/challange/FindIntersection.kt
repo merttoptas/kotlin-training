@@ -1,5 +1,7 @@
 package com.merttoptas.kotlin_training.challange
 
+import android.util.Log
+
 class FindIntersection {
     /*
     Find Intersection
