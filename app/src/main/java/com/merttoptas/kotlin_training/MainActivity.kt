@@ -22,16 +22,12 @@ class MainActivity : AppCompatActivity() {
     var findIntersection: FindIntersection = FindIntersection()
     val questionsMarks = QuestionsMarks()
     val firstFactorial = FirstFactorial()
-    var operations: Operations = Operations()
-    var problems: Problems = Problems()
-    var findIntersection: FindIntersection = FindIntersection()
     val parkingCalculate = ParkingCalculate()
     val compareTheTriples = CompareTheTriples()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        /*
         array.main()
         lists.main()
         maps.main()
@@ -39,11 +35,7 @@ class MainActivity : AppCompatActivity() {
         problems.calculateY()
         findIntersection.main()
         questionsMarks.main()
-
-         */
         firstFactorial.main()
-
-
         findIntersection.main()
         parkingCalculate.main()
         compareTheTriples.main()
